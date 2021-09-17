@@ -1,6 +1,6 @@
 {
   "name": "suny-github-dl",
-  "version": "0.5.1",
+  "version": "0.1.0",
   "description": "Easily download Github repos without any external dependencies such as Git, Tar, Unzip, etc.",
   "repository": {
     "type": "git",
