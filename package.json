@@ -1,0 +1,37 @@
+{
+  "name": "suny-github-dl",
+  "version": "0.5.1",
+  "description": "Easily download Github repos without any external dependencies such as Git, Tar, Unzip, etc.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lamsd/suny-github-download.git"
+  },
+  "keywords": [
+    "github",
+    "repository",
+    "repo",
+    "download",
+    "fetch",
+    "git"
+  ],
+  "author": "ArthurZheng",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "~0.4.3",
+    "fs-extra": "^0.24.0",
+    "request": "^2.12.0",
+    "vcsurl": "~0.1.0"
+  },
+  "devDependencies": {
+    "testutil": "~0.5.0",
+    "mocha": "2.x",
+    "nock": "~0.14.3",
+    "standard": "5.x"
+  },
+  "main": "./lib/github-download.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "mocha test"
+  }
+}
